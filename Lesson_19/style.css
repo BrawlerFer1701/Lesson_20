@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+	font-family: Arial;
+	border: none;
+}
+body{
+	background: linear-gradient(#7f7051, #fff) no-repeat;
+	b/*ackground: -moz-linear-gradient(#7f7051, #fff);
+	background: -webkit-linear-gradient(#7f7051, #fff);
+	background: -o-linear-gradient(#7f7051, #fff);*/
+}
+#main{
+	width: 960px;
+	min-height: 1000px;
+	/*background: red;*/
+	margin: auto;
+	box-shadow: 0 0 10px #9e9279;
+}
+
+header {
+	width: 960px;
+	height: 305px;
+	background: black;
+	background: url(imgs/the-city.jpg);
+}
+#logo{
+	width: 340px;
+	height: 120px;
+	background: #db6516;
+	padding: 20px;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+#title > h1{    
+	/*display: inline;*/
+	width: 170px;
+	color: white;
+	font-size: 30px;
+	display: absolute;
+	top: 125px;
+	left: 460px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px;
+}
+	#logo img{
+		width: 305px;
+		height: 50px;
+	}
+	#logo > h1{
+		font-size: 38px;
+		color: white;
+		/*background: gray;*/
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+	}
+	#logo span{
+		text-transform: uppercase;
+		color: white;
+	}
+/*-----------------------------------*/
+#nav_menu{
+	position: absolute;
+	top: 0;
+	left: 730px;
+}
+header > img{
+	width: 960px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#nav_menu ul{
+	width: 230px;
+	height: 280px;
+	background: #db6516;
+	float: right;
+	list-style: none;
+
+}	
+#nav_menu > ul a{
+	display: block;
+	width: 230px;
+	height: 40px;
+	font-size: 18px;	
+	border-top: solid 1px #95450f;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}
+#nav_menu > ul a:first-child{
+	background: #95450f;
+}
+#nav_menu > ul a:last-child{
+	height: 80px;
+}
+#nav_menu > ul a:hover{
+	background: #95450f;
+}
+	
+#heading_container{
+	width: 960px;
+	height: 160px;
+	background: #e1c78c;
+	padding-left: 3px;
+}
+	#heading_container .head_item{
+		height: 160px;
+		width: 219px;
+		margin: 0 10px;
+		background: #e8d3a5;
+		float: left;
+		padding: 10px 20px;
+	}
+	#heading_container .head_item > h2{
+		color: #db6516;
+		font-size: 28px;
+		margin-bottom: 5px;
+		text-shadow: 0 0 2px #868383;
+	}
+	.head_item > span{
+		font-size: 14px;
+	}
+section{
+	width: 960px;
+	height: 600px;
+	padding: 10px;
+	background: linear-gradient(#e8e6df, #fff);
+}
+section #video{
+	width: 340px;
+	height: 580px;
+	padding: 10px;
+	/*background: white;*/
+	background: linear-gradient(#fff, #e8e6df);
+	float: left;
+}
+section #video > div video{
+	background: black;
+	width: 315px;
+	height: 180px;
+	text-align: center;
+	line-height: 180px;
+	color: white;
+	
+}
+section #news{
+	width: 550px;
+	min-height: 400px;
+	/*background: green;*/
+	float: left;
+	margin-left: 50px;
+	padding: 10px;
+}
+#news .article{
+	width: 540px;
+	height: 100px;
+	/*background: pink;*/
+	margin-bottom: 20px;
+	padding: 5px;
+}
+#news #latest{
+	height: 150px;
+	width: 550px;
+}
+#latest > h2{
+	color: #db6516;
+	font-size: 26px;
+	margin-bottom: 5px;
+}
+.text{
+	width: 350px;
+	float: left;
+}
+#news span{
+	text-align: justify;
+	line-height: 1.6;
+	font-size: 14px;
+}
+
+.article img{
+	margin-right: 10px;
+	border-radius: 10px;
+	float: left;
+}
+.article h4{
+	font-size: 18px;
+	color: #db6516;
+}
+
+/*---------------------------------------*/
+footer{
+	width: 100%;
+	height: 315px;
+	background: url(ModuleB/bottom_bg.png) no-repeat center;
+	position: fixed;
+	bottom: 0;
+}
+footer #container{
+	width: 960px;
+	height: 100px;
+	/*background: black;*/
+	margin: auto;
+	margin-top: 270px;
+}
+footer input[type=search]{
+	width: 350px;
+	height: 30px;
+	background: #e8d3a5;
+	padding-left: 10px;
+	border-radius: 10px 0 0 10px;
+	float: left;
+}
+footer input[type=submit]{
+	width: 100px;
+	height: 30px;
+	background: #db6516;
+	border-radius: 0 10px 10px 0;
+	color: white;
+	font-size: 18px;
+	float: left;
+}
+footer #copyright{
+	float: right;
+	/*background: red;*/
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+}
